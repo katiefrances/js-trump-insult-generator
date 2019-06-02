@@ -1,0 +1,11 @@
+{
+  "name": "js-trump-insult-generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/katiefrances/js-trump-insult-generator.git",
+  "author": "Katie Frances <katiebeeisdead@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
