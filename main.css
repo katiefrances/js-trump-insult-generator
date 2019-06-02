@@ -1,7 +1,43 @@
-/* body {
-  font-family: "Courier New", Courier, monospace;
+/* RANDOM QUOTE GENERATOR */
+
+/* BASIC BODY STYLING */
+html,
+body {
+  height: 100%;
+}
+h2 {
+  font-weight: lighter;
 }
 
-#para {
-  background: red;
-} */
+.container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#quoteDisplay {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 180%;
+  padding: 30px;
+}
+
+.my-button {
+  background: #222;
+  border: 0px;
+}
+.jumbotron.vertical-center {
+  margin-bottom: 0; /* Remove the default bottom margin of .jumbotron */
+}
+
+/* CONTAINER ALIGNMENT */
+.vertical-center {
+  min-height: 100%;
+  min-height: 100vh;
+  display: flex;
+
+  /* Align the bootstrap's container vertically */
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}

@@ -14,12 +14,7 @@ const wordList = [
   "the dolt in cheif"
 ];
 
-let result = wordList[Math.floor(Math.random() * wordList.length)];
-console.log(result);
-
-// let element = document.getElementById(display);
-
-function changeColor(newColor) {
-  var elem = document.getElementById("para");
-  elem.style.color = newColor;
+function newQuote() {
+  let randomNumber = Math.floor(Math.random() * wordList.length);
+  document.getElementById("quoteDisplay").innerHTML = wordList[randomNumber];
 }
