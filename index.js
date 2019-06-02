@@ -2,19 +2,20 @@
 // let's try to replicate Detrumpify!
 
 const wordList = [
-  "cheeto faced monster",
-  "unbelievably incompetent bufoon",
+  "a cheeto faced monster",
+  "an unbelievably incompetent bufoon",
   "the smartest guy in the room; everybody says so",
-  "about to be impeached idiot",
-  "racist left over chicken tikka",
-  "I don't care about refugees, do u?",
-  "extremely talented accordion player",
-  "winner of bankruptcy contests",
-  "flamboyant dumpster makeover",
-  "the dolt in cheif"
+  "an about to be impeached idiot",
+  "a racist left over chicken tikka",
+  "an extremely talented accordion player",
+  "the winner of bankruptcy contests",
+  "a flamboyant dumpster makeover",
+  "the greatest president who ever lived",
+  "a shiny golden turd"
 ];
 
 function newQuote() {
   let randomNumber = Math.floor(Math.random() * wordList.length);
-  document.getElementById("quoteDisplay").innerHTML = wordList[randomNumber];
+  document.getElementById("quoteDisplay").innerHTML =
+    "Trump is" + " " + wordList[randomNumber];
 }

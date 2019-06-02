@@ -19,14 +19,16 @@
 
   <body onload="newQuote()">
     <!-- calling function onload which generates random quote-->
-    <div class="jumbotron vertical-center">
+    <div class="jumbotron">
       <div class="container">
-        <h2 class="h2 display-3 text-center">Random Trump Insult Generator</h2>
         <div id="quoteDisplay">
           <!-- QUOTE HERE -->
         </div>
-        <button class="btn btn-primary btn-lg my-button" onclick="newQuote()">
-          New Quote
+        <button
+          class="btn btn-outline-danger btn-lg my-button"
+          onclick="newQuote()"
+        >
+          Randomise!
         </button>
       </div>
     </div>

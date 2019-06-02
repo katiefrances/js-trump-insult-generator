@@ -12,6 +12,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "animate.css": "^3.7.1",
     "jquery": "^3.4.1",
     "popper.js": "^1.15.0"
   }
